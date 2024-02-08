@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#errors {
+    color: coral;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 24px;
+    color: #333;
+    margin-right: 5px; /* Add some space between timer and "00:00" */
+    margin-left: 10px;
+}
+
+#timer-text {
+    font-size: 24px;
+    color: #333;
+    margin-left: 5px; /* Add some space between timer and "00:00" */
+}
+
+
+
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+hr {
+    width: 500px;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #333;
+    
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray; /* Remove the bold border */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: rgb(154, 213, 245);
+}
+
+.tile-start {
+    background-color: rgb(239, 237, 237);
+}
+
+.horizontal-line{
+    border-bottom: 2px solid black;
+}
+
+.vertical-line{
+    border-right: 2px solid black;
+}

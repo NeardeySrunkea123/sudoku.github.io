@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="sudoku.js"></script>
+</head>
+<body>
+    <h1>Sudoku</h1>
+    <hr>
+    <div id="errors">0</div>
+    <div class="timer-container">
+        <div id="timer-text">Timer</div>
+        <div id="timer">00:00</div>
+    </div>
+    <div class="button-container">
+        <button onclick="restartGame()" class="button">Restart</button>
+        <button onclick="pauseGame()" class="button">Pause</button> 
+        <button onclick="resumeGame()" class="button">Resume</button>
+
+    </div>
+    
+    <div id="board"></div>
+    <br>
+    <div id="digits"></div>
+
+    
+</body>
+</html>
